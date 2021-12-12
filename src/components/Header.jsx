@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header({ text, bgColor, textColor }) {
+function Header({ title, bgColor, textColor }) {
 
     const headerStyles = {
         backgroundColor: bgColor,
@@ -10,14 +10,14 @@ function Header({ text, bgColor, textColor }) {
     return (
         <header style = { headerStyles }>
             <div className="container">
-                <h2>{ text }</h2>
+                <h2>{ title }</h2>
             </div>
         </header>
     )
 }
 
 Header.defaultProps = {
-    text: "Feedback UI",
+    title: "Feedback UI",
     bgColor: "rgba(0,0,0,0.4)",
     textColor: "#FF6A95",
 }

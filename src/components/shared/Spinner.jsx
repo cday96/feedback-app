@@ -7,7 +7,7 @@ function Spinner() {
 			src={spinner}
 			alt="Loading..."
 			style={{
-				width: "100px",
+				width: "110px",
 				margin: "auto",
 				display: "block",
 			}}
